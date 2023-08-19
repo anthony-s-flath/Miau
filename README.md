@@ -1,4 +1,6 @@
 # Miau
 
-doing a pull request
+Game currently in developement.
+Currently 2D facedown, open world, RPG.
 
+Could change at any time lmao

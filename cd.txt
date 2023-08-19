@@ -1,0 +1,57 @@
+TODO:
+    -code:
+        -add consts
+        -speed
+
+    -fix dimensions
+    -on movement, change chunk of player
+    -sdl
+    -chunks
+        -how are chunks being loaded saved?
+            -debug shows strange behavior
+    -structures
+    -terrain 
+        -generation
+        -design
+    -collection
+        -find a better name (group, block)
+        -set of terrain/structures
+    -code design
+        -api for different languages
+        -command class
+        -game tick()
+        -game should be usable without terminal
+    -storage
+        -not everything can stay on the heap
+        -chunks
+    -different screens
+        -menu
+        -dialogue
+            -full screen
+            -any% screen
+            -bubble
+        -stats
+    -keep stats
+    -load/save states
+    -tasks for player
+    -npc
+        -dialogue
+        -tasks
+        -non player actions
+        -stats
+    -sprites
+
+
+
+code organization:
+    -interfaces are in header files
+    -generic functions are in header files
+    -game holds abstraction for interfaces
+    
+    -world:
+        -holds chunks
+        -holds player
+    -screen:
+        -what is shown to user
+    -chunk:
+        -holds group of tiles
